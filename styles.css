@@ -1,0 +1,49 @@
+
+h1 {
+  color:red;
+}
+
+.f1-text {
+  color:black;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+span {
+  color: red;
+}
+
+.Moto-text {
+  color:black;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.Moto-text span {
+  color:red;
+}
+
+#Superbike {
+  color:blue;
+}
+
+a, a:visited {
+color:black;
+}
+
+@media (prefers-color-scheme: dark) {
+    a, a:visited {
+        color:yellow;
+    }
+}
+
+
+css.table1 {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.table1 td {
+  border: 1px solid #ccc;
+  padding: 100px;
+}
